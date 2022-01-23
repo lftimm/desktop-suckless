@@ -23,7 +23,7 @@ config.h:
 	cp config.def.h $@
 
 dwm: ${OBJ}
-	rm config.h
+	rm -f config.h
 	${CC} -o $@ ${OBJ} ${LDFLAGS}
 
 clean:
