@@ -18,10 +18,10 @@ static char dmenufont[]       = "monospace:size=10";
 static const char *fonts[]          = { font };
 static char normbordercolor[]       = "#272822";
 static char normfgcolor[]           = "#f8f8f2";
-static char normbgcolor[]           = "#272822";
+static char normbgcolor[]           = "#343434";
 static char selfgcolor[]            = "#f8f8f2";
 static char selbordercolor[]        = "#990f08";
-static char selbgcolor[]            = "#414141";
+static char selbgcolor[]            = "#666666";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
@@ -39,7 +39,8 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Pcmanfm",      NULL,       NULL,       0,       		1,           -1 },
-	{ "mpv",  	  NULL,       NULL,       0,       		1,           -1 }
+	{ "mpv",  	  NULL,       NULL,       0,       		1,           -1 },
+	{ "xlunch-fullscreen",  	  NULL,       NULL,       0,       		1,           -1 }
 };
 
 /* layout(s) */
